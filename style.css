@@ -10,6 +10,8 @@
     position: absolute;
     bottom: 0;
     left: 0;
+    animation: animateX 3s ease-in-out infinite alternate-reverse,
+               animateY 3s ease-in-out infinite alternate-reverse;
 }
 .container{
     position: relative;
@@ -20,9 +22,45 @@
 
 @keyframes animateX{
     from{
-
+        left: 0;
     }
     to{
-        
+        left: 93%;
+    }
+}
+
+@keyframes animateY {
+    0%{
+        bottom:0;
+    }
+    10%{
+        bottom:50%;
+    }
+    20%{
+        bottom:0;
+    }
+    30%{
+        bottom:50%;
+    }
+    40%{
+        bottom:0;
+    }
+    50%{
+        bottom:50%;
+    }
+    60%{
+        bottom:0;
+    }
+    70%{
+        bottom:50%;
+    }
+    80%{
+        bottom:0;
+    }
+    90%{
+        bottom:50%;
+    }
+    100%{
+        bottom:0;
     }
 }
