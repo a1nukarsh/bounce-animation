@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.ball{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.container{
+    position: relative;
+    background-color: blue;
+    height: 80vh;
+    width: 80vw;
+}
+
+@keyframes animateX{
+    from{
+
+    }
+    to{
+        
+    }
+}
